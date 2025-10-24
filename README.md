@@ -7,14 +7,16 @@ collectives et respecter un budget.
 ## Lancer le projet (localement)
 
 Structure du repo
-• /api -> backend (endpoints REST)
-• /web -> frontend
-• /docs -> documentation
+• /api -> backend (endpoints REST)  
+• /web -> frontend  
+• /docs -> documentation  
+
+---
 
 Tests
 npm
 
 ## Équipe
-• Joakim - Full Stack  
-• Isaac – Full Stack  
+• Joakim - Backend  
+• Isaac – Frontend  
 • Anatole - Full Stack  
