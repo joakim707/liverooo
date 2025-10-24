@@ -14,7 +14,7 @@ Structure du repo
 Tests
 npm
 
-Équipe
+## Équipe
 • Joakim - Full Stack
 • Isaac – Full Stack
 • Anatole - Full Stack
