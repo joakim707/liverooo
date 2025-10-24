@@ -28,9 +28,65 @@
 
 ## 📂 Structure du projet
 
-/api -> Backend (endpoints REST)  
-/web -> Frontend  
-/docs -> Documentation  
+L’arborescence suivante reflète la structure actuelle du projet :
+
+Liverooo/
+├── api/ # Backend
+│ ├── package.json # Dépendances Node.js
+│ ├── server.js # Point d'entrée du serveur
+│ ├── .env # Variables d'environnement
+│ ├── routes/ # Endpoints REST
+│ │ ├── restaurants.js
+│ │ └── commandes.js
+│ ├── controllers/ # Logique métier
+│ │ ├── restaurantController.js
+│ │ └── commandeController.js
+│ ├── models/ # Modèles de données
+│ │ ├── restaurant.js
+│ │ └── commande.js
+│ └── tests/ # Tests backend
+│ └── api.test.js
+│
+├── web/ # Frontend
+│ ├── package.json
+│ ├── public/
+│ │ └── index.html
+│ ├── src/
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ ├── components/ # Composants React
+│ │ │ ├── RestaurantList.js
+│ │ │ └── CommandeForm.js
+│ │ ├── pages/ # Pages de l'application
+│ │ │ ├── Home.js
+│ │ │ └── Commandes.js
+│ │ ├── services/ # Appels API
+│ │ │ └── api.js
+│ │ └── styles/ # Fichiers CSS ou SCSS
+│ │ └── main.css
+│ └── tests/ # Tests frontend
+│ └── App.test.js
+│
+├── docs/ # Documentation
+│ ├── architecture.md
+│ └── README.md
+│
+├── .gitignore
+└── README.md # Documentation principale
+
+markdown
+Copier le code
+
+---
+
+✅ **Points clés de cette structure :**  
+
+- `api/` contient tout le backend (Node.js/Express), organisé en **routes**, **controllers**, **models** et **tests**.  
+- `web/` contient le frontend React avec **components**, **pages**, **services** et **styles**.  
+- `docs/` pour toute la documentation supplémentaire (architecture, user stories, notes de dev).  
+- Fichiers principaux comme `README.md`, `.gitignore`, et `package.json` à la racine et dans chaque dossier de projet pour gérer les dépendances.  
+
+---
 
 ---
 
