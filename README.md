@@ -28,8 +28,6 @@
 
 ## 📂 Structure du projet
 
-L’arborescence suivante reflète la structure actuelle du projet :
-
 Liverooo/  
 ├── api/ # Backend  
 │ ├── package.json # Dépendances Node.js  
