@@ -15,6 +15,6 @@ Tests
 npm
 
 ## Équipe
-• Joakim - Full Stack \n
-• Isaac – Full Stack \n 
-• Anatole - Full Stack \n
+• Joakim - Full Stack  
+• Isaac – Full Stack  
+• Anatole - Full Stack  
