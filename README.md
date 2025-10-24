@@ -4,6 +4,8 @@
 Liverooo! permet à des équipes de bureau de consulter des restaurants, créer des commandes
 collectives et respecter un budget.
 
+---
+
 ## Lancer le projet (localement)
 
 Structure du repo
@@ -13,10 +15,12 @@ Structure du repo
 
 ---
 
-Tests
+## Tests
 npm
+
+---
 
 ## Équipe
 • Joakim - Backend  
 • Isaac – Frontend  
-• Anatole - Full Stack  
+• Anatole - Backend 
