@@ -30,52 +30,49 @@
 
 L’arborescence suivante reflète la structure actuelle du projet :
 
-Liverooo/
-├── api/ # Backend
-│ ├── package.json # Dépendances Node.js
-│ ├── server.js # Point d'entrée du serveur
-│ ├── .env # Variables d'environnement
-│ ├── routes/ # Endpoints REST
-│ │ ├── restaurants.js
-│ │ └── commandes.js
-│ ├── controllers/ # Logique métier
-│ │ ├── restaurantController.js
-│ │ └── commandeController.js
-│ ├── models/ # Modèles de données
-│ │ ├── restaurant.js
-│ │ └── commande.js
-│ └── tests/ # Tests backend
-│ └── api.test.js
-│
-├── web/ # Frontend
-│ ├── package.json
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ ├── components/ # Composants React
-│ │ │ ├── RestaurantList.js
-│ │ │ └── CommandeForm.js
-│ │ ├── pages/ # Pages de l'application
-│ │ │ ├── Home.js
-│ │ │ └── Commandes.js
-│ │ ├── services/ # Appels API
-│ │ │ └── api.js
-│ │ └── styles/ # Fichiers CSS ou SCSS
-│ │ └── main.css
-│ └── tests/ # Tests frontend
-│ └── App.test.js
-│
-├── docs/ # Documentation
-│ ├── architecture.md
-│ └── README.md
-│
-├── .gitignore
-└── README.md # Documentation principale
-
-markdown
-Copier le code
+Liverooo/  
+├── api/ # Backend  
+│ ├── package.json # Dépendances Node.js  
+│ ├── server.js # Point d'entrée du serveur  
+│ ├── .env # Variables d'environnement  
+│ ├── routes/ # Endpoints REST  
+│ │ ├── restaurants.js  
+│ │ └── commandes.js  
+│ ├── controllers/ # Logique métier  
+│ │ ├── restaurantController.js  
+│ │ └── commandeController.js  
+│ ├── models/ # Modèles de données  
+│ │ ├── restaurant.js  
+│ │ └── commande.js  
+│ └── tests/ # Tests backend  
+│ └── api.test.js  
+│  
+├── web/ # Frontend  
+│ ├── package.json  
+│ ├── public/  
+│ │ └── index.html  
+│ ├── src/  
+│ │ ├── App.js  
+│ │ ├── index.js  
+│ │ ├── components/ # Composants React  
+│ │ │ ├── RestaurantList.js  
+│ │ │ └── CommandeForm.js  
+│ │ ├── pages/ # Pages de l'application  
+│ │ │ ├── Home.js  
+│ │ │ └── Commandes.js  
+│ │ ├── services/ # Appels API  
+│ │ │ └── api.js  
+│ │ └── styles/ # Fichiers CSS ou SCSS  
+│ │ └── main.css  
+│ └── tests/ # Tests frontend  
+│ └── App.test.js  
+│  
+├── docs/ # Documentation  
+│ ├── architecture.md  
+│ └── README.md  
+│  
+├── .gitignore  
+└── README.md # Documentation principale  
 
 ---
 
