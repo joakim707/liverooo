@@ -101,6 +101,6 @@ git clone <URL_DU_REPO>
 
 ## Equipe
 
-• Joakim - Backend  
-• Isaac – Frontend  
-• Anatole - Backend  
+• Joakim WILONDJA - Backend  
+• Isaac LEVY – Frontend  
+• Anatole BREL - Backend  
